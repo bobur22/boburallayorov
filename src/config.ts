@@ -1,92 +1,103 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
-  social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
-  },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
-};
+	name: 'Boburjon Allayorov',
+	title: 'Strong Junior Software Engineer',
+	description: 'Portfolio website of Boburjon Allayorov',
+	accentColor: '#1d4ed8',
+	social: {
+		email: 'boburallayorov@mail.ru',
+		linkedin: 'https://linkedin.com/in/boburallayorov',
+		telegram: 'https://t.me/boburallayorov',
+		github: 'https://github.com/bobur22',
+	},
+	aboutMe:
+		'Passionate full-stack developer with hands-on experience building scalable web applications using Python, Django, and modern frontend technologies. Proven leadership as Engineering Manager and Frontend Mentor, driving both product development and technical education. Focused on clean architecture, automation, and continuous learning.',
+
+	skills: [
+		'Python',
+		'Django',
+		'REST API (DRF)',
+		'JavaScript',
+		'Bootstrap 5',
+		'SQL (MySQL, PostgreSQL)',
+		'Docker',
+		'Git / GitHub',
+		'Swagger',
+		'Postman',
+		'OOP',
+		'Algorithms',
+		'Data Structures',
+	],
+
+	projects: [
+		{
+			name: 'ICMA',
+			description:
+				'Developed the official website for the International Molecular Allergy Center, providing information about services, news, and contact options integrated with Telegram bot support.',
+			link: 'https://icma.uz/en/',
+			skills: ['Python', 'Django', 'HTML/CSS', 'JavaScript', 'Bootstrap5'],
+		},
+		{
+			name: 'iService',
+			description:
+				'Full-stack CRM system for client management, attendance tracking, and performance statistics with Excel export and Django filters/validators.',
+			link: 'https://crm-iservice.uz/',
+			skills: ['Python', 'Django', 'Bootstrap5', 'JavaScript'],
+		},
+		{
+			name: 'Global TUIT',
+			description:
+				'Built the official website for Tashkent University of Information Technologies’ International Affairs Department, with multilingual support and responsive UI.',
+			link: 'https://global-tuit.uz/en/',
+			skills: ['Python', 'Django', 'Bootstrap5', 'JavaScript'],
+		},
+		{
+			name: 'M Company Audit',
+			description:
+				'Created a three-phase audit wizard integrated with a Telegram bot that automates business data collection and reporting.',
+			link: 'https://mcompany.uz/audit/starter/',
+			skills: ['Python', 'Django (Wizard)', 'Bootstrap5', 'JavaScript'],
+		},
+	],
+
+	experience: [
+		{
+			company: 'M Company',
+			title: 'Engineering Manager',
+			dateRange: 'May 2025 – Present',
+			bullets: [
+				'Led the full development lifecycle for multiple company and client projects.',
+				'Oversaw projects such as Falco.uz, StudentUnion.uz, Fresh-line.uz, MCompany.uz, MPrototype.uz, and AlgoSchool.uz.',
+				'Ensured high-quality code, system performance, and timely delivery through best practices and reviews.',
+			],
+		},
+		{
+			company: 'Evolution Technology Academy',
+			title: 'Frontend Mentor',
+			dateRange: 'June 2024 – April 2025',
+			bullets: [
+				'Taught HTML, CSS, Bootstrap 5, and JavaScript to students aged 12+.',
+				'Guided learners in building responsive and interactive web applications.',
+				'Created structured lessons to ensure strong foundations in frontend development.',
+			],
+		},
+	],
+
+	education: [
+		{
+			school: 'Bobir Akilkhanov Tech Academy',
+			degree: 'Full Stack Web Development',
+			dateRange: 'Apr 2023 – Apr 2024',
+			achievements: [
+				'Built and optimized full-stack web applications using Python and Django.',
+			],
+		},
+		{
+			school: 'Tashkent University of Information Technologies',
+			degree: 'Bachelor’s in Economics and Management in ICT',
+			dateRange: 'Sep 2023 – May 2027',
+			achievements: [
+				'Focused on ICT management, economics, and digital innovation.',
+			],
+		},
+	],
+}
