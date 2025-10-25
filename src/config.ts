@@ -1,6 +1,6 @@
 export const siteConfig = {
 	name: 'Boburjon Allayorov',
-	title: 'Strong Junior Software Engineer',
+	title: 'Software Engineer',
 	description: 'Portfolio website of Boburjon Allayorov',
 	accentColor: '#1d4ed8',
 	social: {
