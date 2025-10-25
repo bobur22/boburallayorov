@@ -8,15 +8,26 @@ import Education from "../components/Education.astro";
 import Footer from "../components/Footer.astro";
 import { siteConfig } from "../config";
 import "../styles/global.css";
+import photo_svg from "/public/favicon.svg/"
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="author" content="Boburjon Allayorov" />
+    <meta name="keywords" content="Software Engineer, Bobur Allayorov, Boburjon Allayorov, bobur22" />
+    <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={siteConfig.description} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://boburallayorov.uz/" />
+    <meta property="og:title" content={`${siteConfig.name} - ${siteConfig.title}`} />
+    <meta property="og:description" content={siteConfig.description} />
+    <meta property="og:image" content="https://yourwebsite.com/preview-image.jpg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
